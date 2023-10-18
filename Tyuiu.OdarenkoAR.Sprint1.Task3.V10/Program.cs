@@ -34,7 +34,7 @@ namespace Tyuiu.OdarenkoAR.Sprint1.Task3.V12
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Площадь прямоугольного треугольника = " + ds.TriangleArea(a, b));
+            Console.WriteLine("Площадь прямоугольного треугольника = " + Math.Round(ds.TriangleArea(a, b), 3));
             Console.ReadKey();
         }
     }
